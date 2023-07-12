@@ -1,0 +1,44 @@
+/* App.css */
+
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2%;
+    padding: 20px;
+    color: #fff;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+    /* Add flexbox properties */
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-links {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
+  
+  .header-links a {
+    display: inline-block;
+    padding: 10px;
+    color: #4a4a4a;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .header-links a:hover {
+    background-color: #ddd;
+  }
+
+  .header-title{
+    color: #4a4a4a;
+    font-size: larger;
+    font-weight: bolder;
+  }
