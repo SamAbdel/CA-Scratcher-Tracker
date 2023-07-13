@@ -12,9 +12,10 @@ const Header = () => {
         CA Lottery Tracker
       </div>
       <div className="header-links">
+        <a href="/">Best Odds</a>
         <a href="/all-scratchers">All Scratchers</a>
         <a href="#" onClick={handleAboutClick}>About</a> {/* Add onClick event handler */}
-        <a href="https://example.com">CA Lottery Main Site</a>
+        <a href="https://www.calottery.com/scratchers">CA Lottery Main Site</a>
       </div>
     </header>
   );

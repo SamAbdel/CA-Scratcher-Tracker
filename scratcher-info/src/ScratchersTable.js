@@ -22,7 +22,7 @@ const ScratchersTable = () => {
   return (
     <div>
       <h2>Scratchers Table</h2>
-      <h2>Scratchers Table</h2>
+      <h2>Current Best Odds</h2>
       <table>
         <thead>
           <tr>
